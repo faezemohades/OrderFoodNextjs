@@ -5,8 +5,10 @@
     justify-content:space-around;
     padding: 0px 50px;
     height: 100px;
-    position:sticky;
-}
+    width:100%;
+    position:fixed;
+    z-index:999;
+ }
 .item{
     flex:1;
     display: flex;
@@ -24,6 +26,8 @@ justify-content: flex-end;}
     width:50px;
     height: 50px;
     color: var(--primary);
+    cursor: pointer;
+
 
 }
 .texts{
@@ -44,6 +48,7 @@ justify-content: flex-end;}
     align-items:center;
     list-style: none;
     color:white;
+    cursor: pointer;
 }
 .listItem{
     margin: 20px;
@@ -52,6 +57,8 @@ justify-content: flex-end;}
 }
 .cart{
     position:relative;
+    cursor: pointer;
+
 }
 .counter{
     position:absolute;
