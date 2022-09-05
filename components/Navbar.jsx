@@ -6,7 +6,7 @@ function Navbar() {
     <div className={styles.container}>
       <div className={styles.item}>
         <div className={styles.callButton}>
-          <Image src="/img/telephone.png" alt="tel" width="32" height="32" />
+          <Image src="/img/call.png" alt="tel" width="32" height="32" />
         </div>
         <div className={styles.texts}>
           <div className={styles.text}>ORDER NOW!</div>
